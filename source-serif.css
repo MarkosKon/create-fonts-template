@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Source Serif 4";
+  font-weight: 300 600;
+  font-style: normal;
+  font-display: swap;
+  font-stretch: normal;
+  src: url("/fonts/source-serif/SourceSerif4Variable-Roman[wght,opsz].woff2")
+      format("woff2"),
+    url("/fonts/source-serif/SourceSerif4Variable-Roman[wght,opsz].woff")
+      format("woff");
+}
+@font-face {
+  font-family: "Source Serif 4";
+  font-weight: 300 600;
+  font-style: italic;
+  font-display: swap;
+  font-stretch: normal;
+  src: url("/fonts/source-serif/SourceSerif4Variable-Italic[wght,opsz].woff2")
+      format("woff2"),
+    url("/fonts/source-serif/SourceSerif4Variable-Italic[wght,opsz].woff")
+      format("woff");
+}

@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  create-fonts:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: markkon/create-fonts:1.0.0
+    user: node:node
+    working_dir: /app
+    volumes:
+      - ./:/app
+    environment:
+      - PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome-stable
+    command: tail -F anything
