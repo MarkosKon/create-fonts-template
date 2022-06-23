@@ -6,4 +6,4 @@ set -o pipefail
 
 ftnode \
   --config example-com-scrape.json \
-  SourceSerif4Variable*ttf
+  ./input/*ttf
