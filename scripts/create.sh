@@ -5,5 +5,5 @@ set -o nounset
 set -o pipefail
 
 ftnode \
-  --config markoskon-com-scrape.json \
+  --config example-com-scrape.json \
   SourceSerif4Variable*ttf

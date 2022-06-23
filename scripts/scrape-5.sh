@@ -6,4 +6,5 @@ set -o pipefail
 
 scrape \
   --delay 500 \
-  https://example.com/
+  --max-iterations 5 \
+  https://example.com

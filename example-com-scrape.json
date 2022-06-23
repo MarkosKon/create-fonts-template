@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/MarkosKon/ftnode/main/config.schema.json",
+  "verbose": true,
+  "pyftsubset": true,
+  "varLibInstancer": true,
+  "appendAxes": true,
+  "suffix": "",
+  "outputDirectory": "output",
+  "flavors": ["woff2", "woff"],
+  "layoutFeatures": "*",
+  "unicodes": "a 20 2e 44 45 4d 54 59 61 63 64 65 66 67 68 69 6b 6c 6d 6e 6f 70 72 73 74 75 76 77 78 79",
+  "axisLoc": [
+    {
+      "wght": "300:600",
+      "opsz": "16:60"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: markkon/create-fonts:1.0.0
+    image: create-fonts:1.0.0
     user: node:node
     working_dir: /app
     volumes:
